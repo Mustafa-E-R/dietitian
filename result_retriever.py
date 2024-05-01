@@ -10,14 +10,6 @@ dr = Doctor()
 def get_results(old_window, wght, hght, agt, gnd, lstyl):
     """
     Take the form window, that is the first time user face, and weight, height, age, gender, physical activity
-
-    :param old_window:
-    :param wght:
-    :param hght:
-    :param agt:
-    :param gnd:
-    :param lstyl:
-    :return:
     """
     window = old_window
     weight = wght.get()
@@ -110,7 +102,6 @@ def get_results(old_window, wght, hght, agt, gnd, lstyl):
             """
             :param lst: A List that would be its length smaller than the parameter i
             :param i: An integer to handle if the list len is smaller than the i
-            :return:
             """
             try:
                 lst[i]
